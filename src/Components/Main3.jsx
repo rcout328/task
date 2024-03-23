@@ -2,7 +2,7 @@ import { FaApple } from "react-icons/fa";
 export default function Main3() {
   return (
     <>
-      <div className="flex flex-col bg-black h-screen px-20 text-white mad:ml-80 mad:mr-80 mad:rounded-3xl phone:px-5 phone:mt-10 mae:pl-10">
+      <div className="mainnn">
         <div className="flex flex-row items-start space-x-10 mt-20">
           <div className="flex flex-col uppercase text-4xl space-y-2 phone:text-2xl phone:hidden">
             <span>Find The</span>
@@ -25,13 +25,13 @@ export default function Main3() {
           <img
             src="https://i.ibb.co/wzk9md9/john-fornander-TAZo-Um-Dqz-Xk-unsplash.jpg"
             alt="Exercise Visual"
-            className="w-1/2 rounded-3xl object-cover"
+            className="image"
             style={{ maxHeight: "400px" }}
           />
           <img
             src="https://i.ibb.co/NNCzX0p/jared-rice-NTy-Bbu66-SI-unsplash.jpg"
             alt="Exercise Visual"
-            className="w-1/2 rounded-3xl object-cover"
+            className="image"
             style={{ maxHeight: "400px" }}
           />
           <img

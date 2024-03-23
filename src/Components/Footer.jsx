@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="bg-white ml-20 mr-20 mt-20 flex flex-col mad:ml-80 mad:mr-80 phone:ml-5 phone:mt-10 mae:ml-10">
+      <div className="footer">
         <span className="text-5xl font-bold">ZERO</span>
         <span className="text-xl mt-10 phone:mt-5 phone:text-xs">
           Need help?Contact us

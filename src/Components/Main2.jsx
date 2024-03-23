@@ -1,6 +1,6 @@
 export default function Main2() {
   return (
-    <div className="flex flex-col items-center mad:ml-80 mad:mr-80 mt-10 phone:mt-80">
+    <div className="mainn">
       <div className="w-full pl-10 pr-10">
         <img
           src="https://i.ibb.co/wBfz1bY/valery-sysoev-LDAir-ERNzew-unsplash.jpg"
@@ -9,7 +9,7 @@ export default function Main2() {
           style={{ maxHeight: "600px" }}
         />
       </div>
-      <div className="flex flex-col items-center text-center uppercase text-5xl font-medium mt-20 space-y-4 phone:text-xl mae:text-4xl">
+      <div className="spann">
         <span>Fitness is all about feeling great.</span>
         <span>Motivated, positive, and having</span>
         <span>Enough energy in your body to</span>

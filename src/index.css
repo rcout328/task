@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .navbar {
+    @apply flex flex-row mt-5 ml-20 mr-20 mad:ml-80 mad:mr-80 man:flex man:flex-row phone:flex phone:flex-row mae:ml-10;
+  }
+
+  .navbarlogo {
+    @apply text-2xl font-medium phone:absolute phone:left-0 phone:text-3xl phone:ml-5;
+  }
+
+  .menu {
+    @apply man:absolute man:right-0 phone:absolute phone:right-0 phone:mr-5 mae:absolute mae:right-0 mae:mr-10 man:mr-10;
+  }
+
+  .mainco {
+    @apply flex flex-col ml-20 mad:absolute  mad:right-0 mad:mr-80 mac:right-0 mac:absolute mac:mr-20 absolute right-0 phone:mt-40 phone:ml-5 phone:mr-5 phone:absolute phone:left-0 mae:pr-5 man:pr-10;
+  }
+
+  .sp {
+    @apply w-4 h-4 p-5 rounded-full bg-black z-10;
+  }
+
+  .main {
+    @apply flex flex-row ml-20 mr-20 mt-20 mad:ml-80 mad:mr-80 phone:ml-5 phone:flex phone:flex-col man:mb-10;
+  }
+
+  .mainn {
+    @apply flex flex-col items-center mad:ml-80 mad:mr-80 mt-10 phone:mt-40;
+  }
+
+  .spann {
+    @apply flex flex-col items-center text-center uppercase text-5xl font-medium mt-20 space-y-4 phone:text-xl mae:text-4xl;
+  }
+
+  .mainnn {
+    @apply flex flex-col bg-black h-screen px-20 text-white mad:ml-80 mad:mr-80 mad:rounded-3xl phone:px-5 phone:mt-10 mae:pl-10;
+  }
+
+  .image {
+    @apply w-1/2 rounded-3xl object-cover;
+  }
+
+  .footer {
+    @apply bg-white ml-20 mr-20 mt-20 flex flex-col mad:ml-80 mad:mr-80 phone:ml-5 phone:mt-10 mae:ml-10;
+  }
+}
