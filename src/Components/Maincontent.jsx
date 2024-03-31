@@ -3,7 +3,7 @@ export default function Maincontent() {
   return (
     <>
       <div className="main">
-        <div className="flex flex-col text-8xl mal:text-7xl font-bold uppercase phone:text-5xl mae:text-4xl man:text-6xl">
+        <div className="flex flex-col text-8xl mal:text-7xl font-bold uppercase phone:text-4xl mae:text-4xl man:text-6xl">
           <span>Make you</span>
           <span>From zero</span>
           <span>To hero.</span>
